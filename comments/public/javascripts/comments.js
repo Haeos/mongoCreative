@@ -14,13 +14,13 @@ success: function(data, textStatus) {
 $("#getComments").click(function() {
     $.getJSON('comment', function(data) {
       console.log(data);
-      var everything = "<ul>";
+      var everything = "";
       for(var comment in data) {
         com = data[comment];
-        everything += "<li> Setup: " + com.Name + "</li>";
-	everything += "<li> Punchline: " com.Comment + "</li>";
+        everything += "<div id='flip'> Setup: " + com.Name + "</div>";
+	everything += "<div id='panel'> Punchline: " + com.Comment + "</div>";
       }
-	comments += "</ul>";
+	everything += "";
       $("#comments").html(everything);
     })
   })

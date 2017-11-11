@@ -3,10 +3,17 @@
 
 <head>
     <title>Corny Jokes</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<link rel="stylesheet" href="stylesheets/styles.css">    
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <script src="javascripts/comments.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#flip").click(function(){
+        $("#panel").slideDown("slow");
+    });
+});
+</script>
 </head>
 
 <body>

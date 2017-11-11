@@ -1,0 +1,45 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: red;
+}
+
+#json {
+  background-color: black;
+  color: white;
+}
+
+#done {
+  background-color: yellowgreen;
+  color: gray
+}
+
+#comments {
+  background-color: blue;
+  color: orange;
+  font: 16px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#flip {
+  padding: 20px;
+  background-color: black;
+  text-align: center;
+  font-size: 48px;
+  color: blue;
+  font-family: fantasy;
+}
+
+#panel {
+  padding: 50px;
+  background-color: black;
+  font-size: 18px;
+  color: blue;
+  font-family: sans-serif;
+}
+
+
